@@ -6,6 +6,8 @@
         {
 #if NET20
             return new System.Xml.XmlDocument[3].Length;
+#elif PCL
+            return new System.Xml.Linq.XDocument[3].Length;
 #elif NET46
             return new System.Data.DataTable[3].Length;
 #elif NETSTANDARD1_0

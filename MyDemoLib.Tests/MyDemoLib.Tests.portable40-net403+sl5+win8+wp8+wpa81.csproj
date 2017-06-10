@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <ReferringTargetFrameworkForProjectReferences>portable40-net403+sl5+win8+wp8+wpa81</ReferringTargetFrameworkForProjectReferences>
+    <BaseIntermediateOutputPath>$(BaseIntermediateOutputPath)$(ReferringTargetFrameworkForProjectReferences)\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+  <Import Project="MyDemoLib.Tests.Common.props" />
+</Project>
