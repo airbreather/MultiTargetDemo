@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <OutDir>bin\$(ReferringTargetFrameworkForProjectReferences)</OutDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+    <None Remove="$(MSBuildThisFile)" />
+
+    <ProjectReference Include="$(SolutionDir)MyDemoLib\MyDemoLib.csproj" />
+
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+</Project>
