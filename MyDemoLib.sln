@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		MyDemoLib.Tests\MyDemoLib.Tests.Common.props = MyDemoLib.Tests\MyDemoLib.Tests.Common.props
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{40DA114A-2DE2-46AA-ACBA-E8CACE6B3976}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,5 +49,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3708B9D2-F267-40B0-B13B-C0BFBB5C684D} = {40DA114A-2DE2-46AA-ACBA-E8CACE6B3976}
+		{3960C1D8-250D-45D8-B907-491A31AB3478} = {40DA114A-2DE2-46AA-ACBA-E8CACE6B3976}
+		{661728C0-B65E-438F-9C09-B018C8E539A9} = {40DA114A-2DE2-46AA-ACBA-E8CACE6B3976}
+		{EF3A1E4B-0579-4064-946F-1DE31A050BA4} = {40DA114A-2DE2-46AA-ACBA-E8CACE6B3976}
 	EndGlobalSection
 EndGlobal
